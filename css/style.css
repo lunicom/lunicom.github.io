@@ -107,6 +107,26 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (max-width: 425px) {
+  #header #logo h1 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  #header #logo img {
+    max-height: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  #header #logo h1 {
+    font-size: 16px;
+    margin-top: 0;
+  }
+  #header #logo img {
+    max-height: 40px;
+  }
+}
+
 #header.header-fixed {
   background: linear-gradient(45deg, #1de099, #1dc8cd);
   padding: 20px 0;
@@ -1093,6 +1113,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #1dc8cd;
+}
+
+@media (max-width: 768px) {
+  #contact .contact-about h3 {
+    font-size: 25px;
+    margin: 0 0 10px 0;
+  }
 }
 
 #contact .contact-about p {
