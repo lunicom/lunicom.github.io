@@ -1,2 +1,4 @@
 name: Luni Commodities
 markdown: 0.1 
+future: true
+timezone: UTC+5:30
